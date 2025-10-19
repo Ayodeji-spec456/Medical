@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 5000;
 app.use(helmet());
 app.use(
   cors({
-    origin: ["http://localhost:3000"], // Allow frontend dev server
+    origin: ["http://localhost:3000"], // Allow frontend dev server and production
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
