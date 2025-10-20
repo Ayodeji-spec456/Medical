@@ -17,7 +17,9 @@ const PORT = process.env.PORT || 5000;
 app.use(helmet());
 app.use(cors());
 
-app.use(cors({ origin: "*", credentials: true }));
+app.use(
+  cors({ origin: "https://medical-xvdx.vercel.app/", credentials: true })
+);
 // app.use(
 //   cors({
 //     origin: [
