@@ -442,6 +442,9 @@ tbody tr:hover {
   .dashboard-content {
     padding: 15px;
   }
+  .upcoming-appointments {
+    margin-bottom: 30px;
+  }
 
   .dashboard-header {
     margin-bottom: 30px;
@@ -449,6 +452,10 @@ tbody tr:hover {
 
   .dashboard-header h1 {
     font-size: 1.75rem;
+  }
+  .dashboard-table{
+    width: 100%;
+    
   }
 
   .stats-grid {
@@ -731,7 +738,7 @@ tbody tr:hover {
     -webkit-overflow-scrolling: touch;
   }
 
-  .dashboard-table {
+  /* .dashboard-table {
     min-width: 600px;
-  }
+  } */
 }
